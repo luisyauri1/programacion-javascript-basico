@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="container">
+    <section class="section-first">
+        <img class="animate__bounceIn" src="assets/img/logo_poke.svg" alt="">
+        <div class="section-first-header">
+            <img class="section-first-header-img animate__bounceIn" src="assets/img/logo_1.svg" alt="">
+            <div class="section-first-header-title animate__bounceIn">Versus Pokemon Hielo</div>
+        </div>
+    </section>
+    <section class="section-second">
+        <div class="section-second-block">
+            <div class="container-pokemon">
+                <div class="container-pokemon-header">Contrincante</div>
+                <img class="animate__bounceIn" src="assets/img/articuno.svg" alt="">
+                <progress class="progress-pokemon" id="progress-articuno" max="100" value="100"></progress>
+                <div class="container-pokemon-title">[ Live: <span id="text-articuno">100</span> ]</div>
+                <div class="container-pokemon-title">Articuno</div>
+            </div>
+            <img class="versus-pokemon" c src="assets/img/vs.png" alt="">
+            <div class="container-pokemon">
+                <div class="container-pokemon-header">Yo</div>
+                <img class="animate__bounceIn" src="assets/img/suicune.svg" alt="">
+                <progress class="progress-pokemon" id="progress-suicune" max="100" value="100"></progress>
+                <div class="container-pokemon-title">[ Live: <span id="text-suicune">100</span> ]</div>
+                <div class="container-pokemon-title">Suicune</div>
+            </div>
+        </div>
+        <div class="actions-header">Acciones</div>
+        <div id="block-actions">
+            <button id="attack" class="btn-style btn-style--red animate__bounceIn">Atacar</button>
+            <button id="special-attack" class="btn-style btn-style--orange animate__bounceIn">Habilidad
+                Especial</button>
+            <button id="heal" class="btn-style btn-style--green animate__bounceIn">Curar</button>
+        </div>
+        <button id="reset" class="btn-style btn-reset animate__bounceIn">Reiniciar</button>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
